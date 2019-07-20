@@ -16,6 +16,13 @@ found in other common algorithms:
 The overall complexity in the worst case should be of order `N`, where `N` 
 is the size of the input.
 
+### Building
+Just use the `parse_tuple.hpp` file wherever you need it. Some template
+features used by the code requires a C++ 17 capable compiler; older 
+compiler may generate some warning, unwanted behaviour, or not compile
+at all. In those cases be sure to run at least the basic functional tests
+given.
+
 ### Tests
 In the code are given some basic functional tests which demonstrate some
 use cases and check expected behaviour is confirmed for some edge cases.
