@@ -5,9 +5,9 @@ for easy CSV like content parsing, through generic programming is now able
 to achieve much more than that. The code solves much of the limitations I've
 found in other common algorithms:
 
-+ Embed the concept of 'lines', by giving a way to choose EOL sequence.
-+ Embed the concept of 'fields' by giving a way to choose a fields separator.
-+ EOL and the fields are collections (i.e. not a single char). 
++ Embed the concept of `lines`, by giving a way to choose EOL sequence.
++ Embed the concept of `fields` by giving a way to choose a fields separator.
++ `EOL` and the fields are collections (i.e. not a single `char`). 
 + Can skip lines from the beginning (by allowing being used iteratively).
 + Can limit the number of lines to be read (by allowing partial parsing).
 + Allows multiple unintended usages (i.e. splitting strings, tokenizing...)
